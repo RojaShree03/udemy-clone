@@ -38,7 +38,7 @@ This project was created for **practice purposes** to improve my front-end devel
 - Google Fonts
 
 How to View
-You can view the live website here:
+You can view the live website here: https://rojashree03.github.io/udemy-clone/
 
 ##Practice Project
 

@@ -37,6 +37,8 @@ This project was created for **practice purposes** to improve my front-end devel
 - Font Awesome
 - Google Fonts
 
+How to View
+You can view the live website here:
 
 ##Practice Project
 

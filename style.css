@@ -83,11 +83,52 @@ body {
     color: #a435f0;
 }
 
+.sale-img {
+    position: relative;
+}
+
 .sale-img img {
     width: 100%;
     cursor: pointer;
     display: block;
     transition: 0.3s;
+}
+
+.sale-content {
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.sale-content h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.sale-content p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.sale-content button {
+    background-color: #a435f0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sale-content button:hover {
+    background-color: #8710d8;
 }
 
 .sale-img img:hover {
@@ -194,7 +235,7 @@ body {
     margin: auto;
 }
 
-.footer__one div{
+.footer__one div {
     min-width: 180px;
 }
 
@@ -227,7 +268,7 @@ body {
     color: #a435f0;
 }
 
-.footer__two p{
+.footer__two p {
     font-size: 14px;
 }
 
@@ -255,6 +296,25 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .sale-content {
+        left: 5%;
+        width: 40%;
+        padding: 15px;
+    }
+
+    .sale-content h1 {
+        font-size: 20px;
+    }
+
+    .sale-content p {
+        font-size: 13px;
+    }
+
+    .sale-content button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
     .categories {
         justify-content: flex-start;
         gap: 15px;
@@ -263,7 +323,7 @@ body {
         white-space: nowrap;
     }
 
-    .footer{
+    .footer {
         padding: 30px 25px 20px;
     }
 
@@ -272,7 +332,7 @@ body {
         gap: 15px;
     }
 
-    .footer__one > div {
+    .footer__one>div {
         min-width: auto;
     }
 

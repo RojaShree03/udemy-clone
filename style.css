@@ -297,17 +297,44 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .sale-img {
+        position: relative;
+    }
+
+    .sale-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .sale-content {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+
+        padding: 25px;
+        background-color: white;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.18);
+    }
+
     .sale-content h1 {
         font-size: 20px;
+        margin-bottom: 15px;
     }
 
     .sale-content p {
-        font-size: 13px;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
     }
 
     .sale-content button {
-        padding: 8px 12px;
-        font-size: 12px;
+        padding: 12px 20px;
+        font-size: 15px;
     }
 
     .categories {

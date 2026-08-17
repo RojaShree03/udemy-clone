@@ -108,7 +108,9 @@ body {
 .course-card {
     width: 22%;
     transition: 0.3s;
-    margin-top: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border: #ddd solid 1px;
 }
 
 .course-card:hover {
@@ -182,11 +184,13 @@ body {
     padding: 30px;
     background-color: black;
     color: white;
+    
 }
 
 .footer__one {
     display: flex;
     gap: 10px;
+    justify-content: space-around;
 }
 
 .footer__one p {
@@ -208,6 +212,11 @@ body {
 .footer__two h1 {
     color: white;
     cursor: pointer;
+    padding-left: 120px;
+}
+
+.footer__two p{
+    padding-right: 110px;
 }
 
 .footer__two h1:hover {

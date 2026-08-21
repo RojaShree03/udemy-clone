@@ -102,7 +102,7 @@ body {
     padding: 8px;
     cursor: pointer;
     animation-name: ctzoom;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 .categories p:hover {
